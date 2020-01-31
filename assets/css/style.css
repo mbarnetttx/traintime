@@ -9,6 +9,11 @@
 
 #inputbox {
     padding-bottom: 50px;
+    padding-right: 200px;
     
-
 }
+
+#submit {
+    margin-left: 25px;
+}
+
