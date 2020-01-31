@@ -1,0 +1,116 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    
+
+</head>
+
+<title>Train Time</title>
+
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Catch a Train!</h1>
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Train Name</th>
+              <th scope="col">Destination</th>
+              <th scope="col">Frequency (min)</th>
+              <th scope="col">Next Arrival</th>
+              <th scope="col">Minutes Away</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Otto</td>
+              <td>New York</td>
+              <td>30</td>
+              <td>12:30</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Fin Diesel</td>
+              <td>Miami</td>
+              <td>60</td>
+              <td>1:00</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>Los Gasolina</td>
+              <td>San Antonio</td>
+              <td>120</td>
+              <td>1:20</td>
+              <td>120</td>
+            </tr>
+          </tbody>
+        </table>
+
+        
+        <div class="container" id="inputbox">
+          <div class="col-sm-12">
+        <div class="card" style="width: 1100px;">
+          <div class="card-header">
+            Add Train
+            </div>
+            
+           
+        <form>
+          <div class="d-flex justify-content-center">
+          <div class="form-group">
+            <label for="formGroupExampleInput">Train Time</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Destination</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+          </div>
+        </div>
+          <div class="d-flex justify-content-center">
+          <div class="form-group">
+            <label for="formGroupExampleInput">First Train Time (HH:mm)</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+          </div>
+        </div>
+          <div class="d-flex justify-content-center">
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Frequency (min)</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+          </div>
+        </div>
+        
+        </form>
+        
+
+
+      </div>
+      </div>
+      
+        
+
+
+</body>
+
+</html>
